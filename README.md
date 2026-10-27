@@ -6,14 +6,14 @@
 
 ```text
 skills/                    技能目录，每个技能一个子目录
-template/SKILL.md          手工复制的技能模板
+template/SKILL.md.template  手工复制的技能模板
 spec/agent-skills-spec.md  格式与编写规范
 AGENTS.md                  仓库维护约定
 ```
 
 ## 新增与维护
 
-1. 在功能分支中，将 `template/SKILL.md` 复制到 `skills/<skill-name>/SKILL.md`。
+1. 在功能分支中，将 `template/SKILL.md.template` 复制到 `skills/<skill-name>/SKILL.md`。
 2. 按[编写规范](spec/agent-skills-spec.md)填写名称、触发描述和正文，删除占位内容。
 3. 用真实请求验证执行结果，并检查一个容易混淆但不应触发的请求。
 4. 提交评审，说明用途、变更及验证结果，评审通过后合并。

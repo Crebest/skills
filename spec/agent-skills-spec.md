@@ -6,7 +6,7 @@
 
 每个技能独立放在 `skills/<skill-name>/`，入口为 `SKILL.md`。参考资料和素材按需放入该目录，以相对路径引用。
 
-`SKILL.md` 以 YAML frontmatter 开头，后接 Markdown 正文；完整起点见[模板](../template/SKILL.md)。
+`SKILL.md` 以 YAML frontmatter 开头，后接 Markdown 正文；完整起点见[模板](../template/SKILL.md.template)。
 
 | 必填字段 | 约定 |
 | --- | --- |
